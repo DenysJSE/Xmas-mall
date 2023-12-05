@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Capriola', sans-serif;
+}
+
+:root {
+  /* Main colors */
+  --text-color: #FFFFFF;
+  --navitem-active: #FFFFFF;
+  --navitem-active-text: #000000;
+
+  /* Products colors */
+  --background-color: #B4656F;
+  --slider-dot: #FFFFFF;
+  --slider-dot-active: #9BF391;
+
+  /* Button colors */
+  --button-background-color: #FFFFFF;
+  --button-background-color-hover: #E7E7E7;
+  --button-text-color: #11553F;
+
+  /* Cart colors */
+  --cart-item-background: #4F5638;
+  --cart-item-amount-background: #FFFFFF;
+  --cart-item-text-color: #000000;
+
+  /* Scrollbar color */
+  --scrollbar-thumb-color: #dadada;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-background-color-hover);
+}

@@ -1,0 +1,116 @@
+.cart-page {
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 100px 100px 48px 100px;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-page-title {
+  font-size: 60px;
+  margin-top: 48px;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.cart-page-cart-content {
+  margin-top: 100px;
+  display: flex;
+  align-items: start;
+  gap: 200px;
+}
+
+.cart-page-cart-content-order {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cart-page-cart-items {
+  height: 600px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-right: 10px;
+}
+
+.cart-page-cart-items::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cart-page-cart-items::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 6px;
+}
+
+.cart-page-cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding: 25px 48px;
+  border-radius: 30px;
+  background-color: var(--cart-item-background);
+}
+
+.cart-page-cart-item-image {
+  width: 100px;
+}
+
+.cart-page-cart-item-title {
+  font-size: 20px;
+}
+
+.cart-page-cart-item-amount-component {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 30px;
+}
+
+.cart-page-cart-item-amount-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cart-item-amount-background);
+  color: var(--cart-item-text-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-page-cart-item-price {
+  font-size: 30px;
+}
+
+.cart-page-cart-item-close-image {
+  width: 16px;
+  cursor: pointer;
+}
+
+.cart-page-price-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-page-shipping-price {
+  font-size: 20px;
+}
+
+.cart-page-total-price {
+  font-size: 30px;
+}
+
+.cart-page-empty-title {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

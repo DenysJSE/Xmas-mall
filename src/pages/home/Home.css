@@ -1,0 +1,17 @@
+.xmas-mall {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page-title {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 150px;
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 100px;
+  width: 10px;
+}

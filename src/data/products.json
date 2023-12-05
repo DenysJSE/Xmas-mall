@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "name": "Xmas Tree",
+    "description": "Introducing our exquisite Christmas Tree, a perfect centerpiece for your holiday festivities! Crafted with care and attention to detail, this lush and verdant tree stands tall, ready to bring joy and warmth to your home. Its lifelike branches are adorned with a dusting of faux snow, creating a winter wonderland effect that captures the magic of the season. Easy to assemble and equipped with sturdy branches for all your cherished ornaments, this tree is a hassle-free way to transform your space into a festive haven. Make this Christmas unforgettable with our enchanting Christmas Tree – the epitome of holiday cheer!",
+    "price": 50,
+    "image": "/product-images/xmas-tree.png"
+  },
+
+  {
+    "id": "2",
+    "name": "Xmas Globe",
+    "description": "A Christmas snow globe is a festive and enchanting holiday decoration that captures the magical essence of the season. Encased within a transparent globe, a whimsical winter scene unfolds, featuring miniature, intricately crafted holiday elements such as snow-covered landscapes, charming cottages, or jolly Santa Claus figures. When gently shaken, the globe transforms into a mesmerizing winter wonderland as snowflakes gracefully fall, creating a captivating and nostalgic atmosphere. These delightful ornaments often serve as cherished collectibles and timeless gifts, bringing joy and a touch of holiday magic to any space they adorn.",
+    "price": 10,
+    "image": "/product-images/snow-globe.png"
+  },
+
+  {
+    "id": "3",
+    "name": "Gift Boxes",
+    "description": "A Christmas gift box is a beautifully wrapped and adorned package, carefully curated to spread joy and festive cheer during the holiday season. It conceals the anticipation of delightful surprises within, creating a sense of wonder and excitement. Adorned with vibrant and festive wrapping paper, adorned with cheerful ribbons, and perhaps embellished with seasonal ornaments, the Christmas gift box is a visual delight that mirrors the spirit of giving. Inside, recipients discover thoughtfully selected presents, reflecting the warmth and generosity of the holiday season. These charming boxes serve as tangible expressions of love, sharing, and celebration, making them a central element of the joyous gift-giving tradition during Christmas.",
+    "price": 15,
+    "image": "/product-images/xmas-boxes.png"
+  },
+
+  {
+    "id": "4",
+    "name": "Santa Costume",
+    "description": "A Santa costume embodies the festive spirit of Christmas with its iconic and timeless design. Typically consisting of a plush red jacket with white faux fur trim, matching trousers, and a wide black belt, the ensemble captures the classic image of Santa Claus. The costume often includes a distinctive hat, adorned with a white pom-pom, and white gloves to complete the jolly look. The familiar image of Santa in this traditional attire evokes feelings of warmth, generosity, and holiday cheer. Whether worn for festive gatherings, holiday events, or to spread joy during seasonal festivities, the Santa costume is a beloved symbol of Christmas, bringing smiles and merriment wherever it appears.",
+    "price": 20,
+    "image": "/product-images/santa-costume.png"
+  }
+]

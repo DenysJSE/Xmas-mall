@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: var(--text-color);
+  padding: 20px 100px;
+}
+
+.header-title {
+  font-size: 50px;
+  font-family: 'Love Ya Like A Sister', cursive;
+  cursor: default;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.header-navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+}
+
+.header-navbar-item {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.header-navbar-item.active {
+  color: var(--navitem-active-text);
+  background-color: var(--navitem-active);
+  border-radius: 20px;
+}
+
+.header-cart-image {
+  width: 32px;
+  cursor: pointer;
+}
